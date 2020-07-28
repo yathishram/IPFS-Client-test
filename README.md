@@ -1,10 +1,18 @@
 ## To run the application
 
 1. Add the following config to the IPFS for CORS
-   `ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"*\"]" ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "[\"true\"]"`
+   ```ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"*\"]" ```
+   
+   ```ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "[\"true\"]"```
 
 2. Make sure IPFS is running in daemon mode.
+  
    `ipfs daemon`
+
+3. Install the dependencies 
+   
+   ```npm install```
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
