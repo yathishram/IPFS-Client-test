@@ -2,9 +2,9 @@
 
 1. Add the following config to the IPFS for CORS
   
-  ```ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"*\"]" ```
+    ```$> ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"*\"]" ```
    
-   ```ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "[\"true\"]"```
+    ```$> ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "[\"true\"]"```
 
 2. Make sure IPFS is running in daemon mode.
   
