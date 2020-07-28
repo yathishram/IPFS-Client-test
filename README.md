@@ -1,7 +1,8 @@
 ## To run the application
 
 1. Add the following config to the IPFS for CORS
-   ```ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"*\"]" ```
+  
+  ```ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"*\"]" ```
    
    ```ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "[\"true\"]"```
 
